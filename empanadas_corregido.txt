@@ -1,0 +1,38 @@
+object gimenez{
+    var fondo =300000 
+
+    method pagarSueldo(){
+        empleado.cobrarSueldo()
+        fondo = fondo - (empleado.sueldo())
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------
+/*
+atributo
+
+
+const/var 
+referencia ()
+Accedo al objeto a traves de la referencia 
+Si bien dice object gimenez, es una referencia. Un 
+objeto sin referencia no es nada
+*/
